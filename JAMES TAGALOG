@@ -1,0 +1,9 @@
+time = float(input("Enter time in seconds: "))
+
+minutes = 60
+
+minutes1 = int(time / minutes)
+
+seconds1 = int(time % minutes)
+
+print(f"{time} seconds is {minutes1} minutes and {seconds1} seconds")
